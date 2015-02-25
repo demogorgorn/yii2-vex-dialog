@@ -19,4 +19,8 @@ class VexAsset extends \yii\web\AssetBundle
     public $js = [ 'js/vex.combined.min.js' ];
 	
 	public $css = [ 'css/vex.css' ];
+
+	public $depends = [
+        'yii\web\JqueryAsset',
+    ];
 }
