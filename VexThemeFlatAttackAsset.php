@@ -15,6 +15,6 @@ namespace demogorgorn\vex;
 class VexThemeFlatAttackAsset extends \yii\web\AssetBundle
 {
 
-    public $sourcePath = '@bower/vex/';
+    public $sourcePath = '@bower/vex/dist/';
 	public $css = [ 'css/vex-theme-flat-attack.css' ];
 }

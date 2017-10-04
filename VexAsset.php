@@ -15,7 +15,7 @@ namespace demogorgorn\vex;
 class VexAsset extends \yii\web\AssetBundle
 {
 
-    public $sourcePath = '@bower/vex/';
+    public $sourcePath = '@bower/vex/dist/';
     public $js = [ 'js/vex.combined.min.js' ];
 	
 	public $css = [ 'css/vex.css' ];
